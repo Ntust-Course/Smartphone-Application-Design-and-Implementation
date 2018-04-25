@@ -81,25 +81,4 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         });
         return TextUtils.join(",", this.currentSelectedItems);
     }
-
-    public static class Item {
-        String text;
-        boolean check;
-
-        public String getText() {
-            return text;
-        }
-
-        public void setText(String text) {
-            this.text = text;
-        }
-
-        public boolean isCheck() {
-            return check;
-        }
-
-        public void setCheck(boolean check) {
-            this.check = check;
-        }
-    }
 }

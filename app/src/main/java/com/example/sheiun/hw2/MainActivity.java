@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ArrayList<MyAdapter.Item> myDataset = new ArrayList<>();
+        ArrayList<Item> myDataset = new ArrayList<>();
         for (int i = 1; i <= 100; i++) {
-            MyAdapter.Item item = new MyAdapter.Item();
+            Item item = new Item();
             item.setCheck(false);
             item.setText(Integer.toString(i));
             myDataset.add(item);
